@@ -1,0 +1,62 @@
+/* *************** */
+/*    CORE         */
+/* *************** */
+
+#border {
+    position:fixed;
+    top:0; right:0; bottom:0; left:0;
+    pointer-events: none;
+    fill: none; 
+    stroke: none;   
+}
+
+/* *************** */
+/*    STYLES       */
+/* *************** */
+
+/* Solid */
+#border.solid .b1 {
+    stroke: #fc6;
+    stroke-width: 40;
+}
+
+/* Parapet */
+#border.parapet .b1, 
+#border.parapet .b2 {
+    stroke: black;
+}
+#border.parapet .b3, 
+#border.parapet .b4 {
+    stroke: silver;
+}
+#border.parapet .b2, 
+#border.parapet .b4 {    
+    stroke-dasharray: 1,100;
+    stroke-linecap: square;
+}
+#border.parapet .b1 {
+    stroke-width: 28;
+}
+#border.parapet .b3 {
+    stroke-width: 25;
+}
+#border.parapet .b2 {
+    stroke-width: 53;
+}
+#border.parapet .b4 {
+    stroke-width: 50;
+}
+
+/* Bubble */
+#border.bubble .b1, 
+#border.bubble .b2 {
+    stroke: white;
+    stroke-width: 50;
+    stroke-dasharray: 1,50;
+    stroke-linecap: round;
+}
+
+#border.bubble .b1 {
+    stroke: #0cf;
+    stroke-width: 55;
+}
