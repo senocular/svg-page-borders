@@ -47,20 +47,6 @@
 	stroke-width: 50;
 }
 
-/* Bubble */
-#border.bubble .b1, 
-#border.bubble .b2 {
-	stroke: white;
-	stroke-width: 50;
-	stroke-dasharray: 1,50;
-	stroke-linecap: round;
-}
-
-#border.bubble .b1 {
-	stroke: #0cf;
-	stroke-width: 55;
-}
-
 /* Grass */
 #border.grass {
 	stroke: #009000;
@@ -80,4 +66,18 @@
 	stroke: #008030;
 	stroke-width: 42;
 	stroke-dasharray: 3,7;
+}
+
+/* Cloud */
+#border.cloud .b1, 
+#border.cloud .b2 {
+	stroke: white;
+	stroke-width: 50;
+	stroke-dasharray: 1,50;
+	stroke-linecap: round;
+}
+
+#border.cloud .b1 {
+	stroke: #0cf;
+	stroke-width: 55;
 }
