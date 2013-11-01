@@ -3,11 +3,11 @@
 /* *************** */
 
 #border {
-    position:fixed;
-    top:0; right:0; bottom:0; left:0;
-    pointer-events: none;
-    fill: none; 
-    stroke: none;   
+	position:fixed;
+	top:0; right:0; bottom:0; left:0;
+	pointer-events: none;
+	fill: none; 
+	stroke: none;   
 }
 
 /* *************** */
@@ -16,47 +16,68 @@
 
 /* Solid */
 #border.solid .b1 {
-    stroke: #fc6;
-    stroke-width: 40;
+	stroke: #fc6;
+	stroke-width: 40;
 }
 
 /* Parapet */
 #border.parapet .b1, 
 #border.parapet .b2 {
-    stroke: black;
+	stroke: black;
 }
 #border.parapet .b3, 
 #border.parapet .b4 {
-    stroke: silver;
+	stroke: silver;
 }
 #border.parapet .b2, 
 #border.parapet .b4 {    
-    stroke-dasharray: 1,100;
-    stroke-linecap: square;
+	stroke-dasharray: 1,100;
+	stroke-linecap: square;
 }
 #border.parapet .b1 {
-    stroke-width: 28;
+	stroke-width: 28;
 }
 #border.parapet .b3 {
-    stroke-width: 25;
+	stroke-width: 25;
 }
 #border.parapet .b2 {
-    stroke-width: 53;
+	stroke-width: 53;
 }
 #border.parapet .b4 {
-    stroke-width: 50;
+	stroke-width: 50;
 }
 
 /* Bubble */
 #border.bubble .b1, 
 #border.bubble .b2 {
-    stroke: white;
-    stroke-width: 50;
-    stroke-dasharray: 1,50;
-    stroke-linecap: round;
+	stroke: white;
+	stroke-width: 50;
+	stroke-dasharray: 1,50;
+	stroke-linecap: round;
 }
 
 #border.bubble .b1 {
-    stroke: #0cf;
-    stroke-width: 55;
+	stroke: #0cf;
+	stroke-width: 55;
+}
+
+/* Grass */
+#border.grass {
+	stroke: #009000;
+	stroke-width: 50;
+	stroke-dasharray: 3,11, 3,9;
+}
+#border.grass .b2 {
+	stroke-width: 47;
+	stroke-dasharray: 3,23;
+}
+#border.grass .b3 {
+	stroke: #309000;
+	stroke-width: 45;
+	stroke-dasharray: 3,21, 3,27;
+}
+#border.grass .b4 {
+	stroke: #008030;
+	stroke-width: 42;
+	stroke-dasharray: 3,7;
 }
